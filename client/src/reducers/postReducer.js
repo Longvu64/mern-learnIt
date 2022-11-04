@@ -7,22 +7,6 @@ import {
 	FIND_POST
 } from '../contexts/constants'
 
-// export const postReducer = (state, action) => {
-//     const {type, payload} = action
-//     switch (type){
-//         case 'POSTS_LOADED_SUCCESS':
-//             return{
-//                 ...state,
-//                 posts: payload,
-//                 postsLoading: false
-//             }
-//         default:
-//             return state
-//     }
-// }
-
-
-
 export const postReducer = (state, action) => {
 	const { type, payload } = action
 	switch (type) {

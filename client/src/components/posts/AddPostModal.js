@@ -1,6 +1,4 @@
 import {Modal, Button, Form} from 'react-bootstrap'
-// import Button from 'react-bootstrap/Button'
-// import Form from 'react-bootstrap/Form'
 import { useContext, useState } from 'react'
 import { PostContext } from '../../contexts/PostContext'
 
